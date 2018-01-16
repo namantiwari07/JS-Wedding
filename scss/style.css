@@ -452,7 +452,7 @@ Footer Variables */
   font-size: 18px;
   color: whitesmoke;
   letter-spacing: 2px;
-  margin-bottom: 50px; }
+  /* margin-bottom: 50px; */ }
   #footer p {
     display: table-cell;
     margin: 0;

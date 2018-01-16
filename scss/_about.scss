@@ -24,17 +24,6 @@
     
 
     .aboutText {
-        // margin-top: 2.5em;
-        // display: block;
-        // height: auto;
-        // width: 100%;
-        // text-align: center;
-        // color: white;
-        // letter-spacing: 2px;
-        // font-size: 1.2em;
-        // line-height: 1.8em;
-        // overflow: hidden;
-        // word-wrap: normal;
 
         @media screen and (min-width: $desktop) {
             @include abouttext(2.5em, 1.2em, 1.5em);

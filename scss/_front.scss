@@ -26,6 +26,9 @@
                 @include font($front-main, floralwhite, 5em, 8px );
             }
             
+            -webkit-animation-duration: 3s;
+            -webkit-animation-delay: 2s;
+            //-vendor-animation-iteration-count: infinite;
         }
     }
 

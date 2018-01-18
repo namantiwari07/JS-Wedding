@@ -15,27 +15,30 @@
   .frontPage .frontText {
     display: table-cell;
     vertical-align: middle; }
-    @media screen and (min-width: 769px) {
-      .frontPage .frontText .main {
-        font-family: "Tangerine", cursive;
-        font-size: 8em;
-        letter-spacing: 10px;
-        color: floralwhite;
-        text-align: center; } }
-    @media screen and (max-width: 768px) {
-      .frontPage .frontText .main {
-        font-family: "Tangerine", cursive;
-        font-size: 6em;
-        letter-spacing: 7px;
-        color: floralwhite;
-        text-align: center; } }
-    @media screen and (max-width: 425px) {
-      .frontPage .frontText .main {
-        font-family: "Tangerine", cursive;
-        font-size: 5em;
-        letter-spacing: 8px;
-        color: floralwhite;
-        text-align: center; } }
+    .frontPage .frontText .main {
+      -webkit-animation-duration: 3s;
+      -webkit-animation-delay: 2s; }
+      @media screen and (min-width: 769px) {
+        .frontPage .frontText .main {
+          font-family: "Tangerine", cursive;
+          font-size: 8em;
+          letter-spacing: 10px;
+          color: floralwhite;
+          text-align: center; } }
+      @media screen and (max-width: 768px) {
+        .frontPage .frontText .main {
+          font-family: "Tangerine", cursive;
+          font-size: 6em;
+          letter-spacing: 7px;
+          color: floralwhite;
+          text-align: center; } }
+      @media screen and (max-width: 425px) {
+        .frontPage .frontText .main {
+          font-family: "Tangerine", cursive;
+          font-size: 5em;
+          letter-spacing: 8px;
+          color: floralwhite;
+          text-align: center; } }
   @media screen and (min-width: 769px) {
     .frontPage .sub-main {
       font-family: "Parisienne", cursive;
@@ -451,8 +454,7 @@ Footer Variables */
   text-align: center;
   font-size: 18px;
   color: whitesmoke;
-  letter-spacing: 2px;
-  margin-bottom: 50px; }
+  letter-spacing: 2px; }
   #footer p {
     display: table-cell;
     margin: 0;

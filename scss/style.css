@@ -454,12 +454,7 @@ Footer Variables */
   text-align: center;
   font-size: 18px;
   color: whitesmoke;
-<<<<<<< HEAD
   letter-spacing: 2px; }
-=======
-  letter-spacing: 2px;
-  /* margin-bottom: 50px; */ }
->>>>>>> 5e8b09b60534d82b707bd220d0b9896290810f99
   #footer p {
     display: table-cell;
     margin: 0;

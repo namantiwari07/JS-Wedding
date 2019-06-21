@@ -60,5 +60,9 @@ a.contact:hover {
   color: green;
 }
 
+div.invite {
+  width: 0;
+}
+
 
 /*# sourceMappingURL=style.css.map */
